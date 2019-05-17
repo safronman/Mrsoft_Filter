@@ -1,0 +1,76 @@
+body {
+    color: black;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.filter-container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid lightslategrey;
+    background-color: whitesmoke;
+}
+
+.field-text {
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.field-text__label {
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.field-text__input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 14px 0 14px 20px;
+    color: darkblue;
+    border: 2px solid lightslategrey;
+    outline-color: lightslategrey;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.field-checkbox {
+    margin-bottom: 20px;
+}
+
+.field-checkbox__label {
+    text-transform: uppercase;
+}
+
+.form__button-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 20px;
+    padding: 12px 20px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: #3cb3fa;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.btn:hover {
+    background-color: #1795fa;
+}
+
+.error {
+    color: red;
+    font-size: 22px;
+    line-height: 24px;
+}
